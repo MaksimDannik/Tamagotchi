@@ -1,7 +1,7 @@
 # Tamagotchi
 
 
-If you want to start game. you need to follow instruction.
+```If you want to start game. you need to follow instruction.
 
 
 
@@ -13,4 +13,4 @@ Step 4: write in terminal -> mvn javafx:run.
 Step 5: play game.
 Step 6: enjoy the game.
 
-
+```
