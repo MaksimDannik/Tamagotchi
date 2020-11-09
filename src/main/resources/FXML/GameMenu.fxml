@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.Controller.ControllerGameMenu">
+   <ImageView fitHeight="600.0" fitWidth="800.0">
+      <image>
+         <Image url="@800-600.jpg" />
+      </image>
+   </ImageView>
+   <Button layoutX="248.0" layoutY="408.0" mnemonicParsing="false" onAction="#button_NewGame" prefHeight="36.0" prefWidth="96.0" text="New Game">
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+      <textFill>
+         <LinearGradient endX="0.9903846153846154" endY="1.0" startX="1.0" startY="0.8461538461538461">
+            <stops>
+               <Stop color="#54682a" />
+               <Stop color="#679419" offset="1.0" />
+            </stops>
+         </LinearGradient>
+      </textFill>
+   </Button>
+   <Button layoutX="477.0" layoutY="408.0" mnemonicParsing="false" onAction="#buttonLoadGame" prefHeight="36.0" prefWidth="96.0" text="Load Game" />
+   <Button layoutX="364.0" layoutY="463.0" mnemonicParsing="false" onAction="#button_Exit" prefHeight="36.0" prefWidth="96.0" text="Exit" />
+</Pane>

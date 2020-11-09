@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.Controller.ControllerNewGame">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="951.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fon3.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Bdonkey" layoutX="653.0" layoutY="375.0" minWidth="43.0" mnemonicParsing="false" onAction="#buttonDonkey" prefHeight="123.0" prefWidth="150.0" style="-fx-background-color: transporant;">
+         <graphic>
+            <ImageView fitHeight="129.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@donkey.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="Bshrek" layoutX="369.0" layoutY="297.0" mnemonicParsing="false" onAction="#buttonShrek" prefHeight="156.0" prefWidth="217.0" style="-fx-background-color: tranporant;">
+         <graphic>
+            <ImageView fitHeight="190.0" fitWidth="168.0">
+               <image>
+                  <Image url="@shrek.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Bcat" layoutX="97.0" layoutY="386.0" mnemonicParsing="false" onAction="#buttonCat" prefHeight="112.0" prefWidth="174.0" style="-fx-background-color: tranporant;">
+         <graphic>
+            <ImageView fitHeight="128.0" fitWidth="111.0">
+               <image>
+                  <Image url="@cat.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="text_Name" alignment="CENTER" layoutX="383.0" layoutY="170.0" style="-fx-background-color: white;" />
+      <Label layoutX="411.0" layoutY="137.0" text="Write your name" />
+      <Button layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#button_back" prefHeight="26.0" prefWidth="84.0" text="back" />
+   </children>
+</Pane>

@@ -1,0 +1,14 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.control.Button?>-->
+
+<!--<VBox xmlns="http://javafx.com/javafx"-->
+<!--      xmlns:fx="http://javafx.com/fxml"-->
+<!--       fx:controller="world.ucode.Controller.ControllerGameMenu">-->
+
+<!--    <Label fx:id="mainTitle" text="Hello world!"/>-->
+<!--    <Label text="This is a simple demo application."/>-->
+<!--    <Button fx:id="mainButton" text="Click me!" onAction="#buttonClicked"/>-->
+<!--</VBox>-->

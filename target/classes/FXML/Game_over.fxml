@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane  fx:id="pane" prefHeight="498.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.Controller.ControllerGameOver">
+   <children>
+      <ImageView fitHeight="567.0" fitWidth="725.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TextGO.jpg" />
+         </image></ImageView>
+      <Button fx:id="kk" layoutX="250.0" layoutY="403.0" mnemonicParsing="false" onAction="#kk" prefHeight="23.0" prefWidth="84.0" text="Finish">
+      </Button>
+   </children>
+</AnchorPane>
