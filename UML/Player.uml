@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>world.ucode.Player</OriginalElement>
+  <nodes>
+    <node x="0.0" y="390.0">world.ucode.Player.Shrek</node>
+    <node x="193.0" y="0.0">world.ucode.Player.Pet</node>
+    <node x="193.0" y="390.0">world.ucode.Player.Cat</node>
+    <node x="386.0" y="390.0">world.ucode.Player.Donkey</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="world.ucode.Player.Shrek" target="world.ucode.Player.Pet">
+      <point x="0.0" y="-92.5" />
+      <point x="86.5" y="365.0" />
+      <point x="221.83333333333334" y="365.0" />
+      <point x="-57.66666666666666" y="170.0" />
+    </edge>
+    <edge source="world.ucode.Player.Donkey" target="world.ucode.Player.Pet">
+      <point x="0.0" y="-92.5" />
+      <point x="472.5" y="365.0" />
+      <point x="337.16666666666663" y="365.0" />
+      <point x="57.66666666666663" y="170.0" />
+    </edge>
+    <edge source="world.ucode.Player.Cat" target="world.ucode.Player.Pet">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="54.0" />
+  <SelectedNodes>
+    <node>world.ucode.Player.Donkey</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

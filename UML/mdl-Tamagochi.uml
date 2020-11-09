@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-Tamagochi</OriginalElement>
+  <nodes>
+    <node x="204.0" y="378.0">lib-Maven: javafx-controls</node>
+    <node x="155.5" y="126.0">lib-Maven: org.openjfx:javafx-fxml:mac:15</node>
+    <node x="150.5" y="294.0">lib-Maven: org.openjfx:javafx-media:mac:15</node>
+    <node x="0.0" y="210.0">mdl-Tamagochi</node>
+    <node x="215.0" y="0.0">lib-Maven: javafx-base</node>
+    <node x="143.0" y="420.0">lib-Maven: org.openjfx:javafx-controls:mac:15</node>
+    <node x="217.5" y="336.0">lib-Maven: sqlite-jdbc</node>
+    <node x="216.5" y="84.0">lib-Maven: javafx-fxml</node>
+    <node x="203.0" y="210.0">lib-Maven: javafx-graphics</node>
+    <node x="154.0" y="252.0">lib-Maven: org.openjfx:javafx-base:mac:15</node>
+    <node x="142.0" y="168.0">lib-Maven: org.openjfx:javafx-graphics:mac:15</node>
+    <node x="211.5" y="42.0">lib-Maven: javafx-media</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-Tamagochi" target="lib-Maven: org.openjfx:javafx-base:mac:15">
+      <point x="46.0" y="2.0" />
+      <point x="-133.0" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: javafx-fxml">
+      <point x="46.0" y="-6.0" />
+      <point x="142.0" y="95.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: javafx-base">
+      <point x="46.0" y="-10.0" />
+      <point x="142.0" y="11.0" />
+      <point x="-72.0" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: org.openjfx:javafx-controls:mac:15">
+      <point x="46.0" y="10.0" />
+      <point x="-144.0" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: org.openjfx:javafx-fxml:mac:15">
+      <point x="46.0" y="-4.0" />
+      <point x="142.0" y="137.0" />
+      <point x="-131.5" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: sqlite-jdbc">
+      <point x="46.0" y="6.0" />
+      <point x="142.0" y="347.0" />
+      <point x="-69.5" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: javafx-controls">
+      <point x="46.0" y="8.0" />
+      <point x="142.0" y="389.0" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: org.openjfx:javafx-media:mac:15">
+      <point x="46.0" y="4.0" />
+      <point x="-136.5" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: javafx-media">
+      <point x="46.0" y="-8.0" />
+      <point x="142.0" y="53.0" />
+      <point x="-75.5" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: org.openjfx:javafx-graphics:mac:15">
+      <point x="46.0" y="-2.0" />
+      <point x="-145.0" y="-0.0" />
+    </edge>
+    <edge source="mdl-Tamagochi" target="lib-Maven: javafx-graphics">
+      <point x="46.0" y="-0.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="216.0" y="221.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Libraries</Category>
+    <Category>Test dependencies</Category>
+    <Category>Show Paths: Root -&gt; Selection</Category>
+    <Category>Borderless View</Category>
+  </Categories>
+</Diagram>
+

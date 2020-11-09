@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>world.ucode</OriginalElement>
+  <nodes>
+    <node x="84.875" y="0.0">world.ucode.Player</node>
+    <node x="0.0" y="168.0">world.ucode.Main</node>
+    <node x="70.875" y="79.0">world.ucode.Controller</node>
+    <node x="78.45833333333334" y="338.0">world.ucode.scenes</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="world.ucode.Main" target="world.ucode.Controller">
+      <point x="0.0" y="-60.0" />
+      <point x="88.0" y="148.0" />
+      <point x="130.125" y="148.0" />
+      <point x="-19.75" y="14.5" />
+    </edge>
+    <edge source="world.ucode.Controller" target="world.ucode.Player">
+      <point x="-52.66666666666666" y="-14.5" />
+      <point x="97.20833333333334" y="54.0" />
+      <point x="106.54166666666666" y="54.0" />
+      <point x="-43.333333333333336" y="14.5" />
+    </edge>
+    <edge source="world.ucode.Controller" target="world.ucode.scenes">
+      <point x="59.25" y="14.5" />
+      <point x="209.125" y="148.0" />
+      <point x="197.5" y="148.0" />
+      <point x="197.5" y="318.0" />
+      <point x="195.45833333333334" y="318.0" />
+      <point x="52.0" y="-14.5" />
+    </edge>
+    <edge source="world.ucode.Main" target="world.ucode.scenes">
+      <point x="0.0" y="60.0" />
+      <point x="88.0" y="308.0" />
+      <point x="117.45833333333334" y="308.0" />
+      <point x="-26.0" y="-14.5" />
+    </edge>
+    <edge source="world.ucode.Controller" target="world.ucode.Controller">
+      <point x="-59.25" y="14.5" />
+      <point x="90.625" y="128.0" />
+      <point x="50.875" y="128.0" />
+      <point x="50.875" y="93.5" />
+      <point x="-79.0" y="-0.0" />
+    </edge>
+    <edge source="world.ucode.scenes" target="world.ucode.scenes">
+      <point x="0.0" y="14.5" />
+      <point x="143.45833333333334" y="387.0" />
+      <point x="58.45833333333334" y="387.0" />
+      <point x="58.45833333333334" y="352.5" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="world.ucode.scenes" target="world.ucode.Main">
+      <point x="-52.0" y="-14.5" />
+      <point x="91.45833333333334" y="318.0" />
+      <point x="29.333333333333343" y="318.0" />
+      <point x="-58.66666666666666" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="125.5" y="88.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

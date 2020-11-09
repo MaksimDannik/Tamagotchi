@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>world.ucode.Main</OriginalElement>
+  <nodes>
+    <node x="20.0" y="170.0">javafx.application.Application</node>
+    <node x="177.33333333333337" y="594.0">world.ucode.Main</node>
+    <node x="103.50000000000001" y="0.0">javafx.application.Application.Parameters</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+      <point x="50.25" y="60.0" />
+      <point x="254.25" y="145.0" />
+      <point x="296.0" y="145.0" />
+      <point x="92.0" y="-182.0" />
+    </edge>
+    <edge source="javafx.application.Application" target="javafx.application.Application.Parameters">
+      <point x="-92.0" y="-182.0" />
+      <point x="112.0" y="145.0" />
+      <point x="153.75" y="145.0" />
+      <point x="-50.25" y="60.0" />
+    </edge>
+    <edge source="javafx.application.Application" target="javafx.application.Application">
+      <point x="-122.66666666666669" y="182.0" />
+      <point x="81.33333333333331" y="554.0" />
+      <point x="0.0" y="554.0" />
+      <point x="0.0" y="352.0" />
+      <point x="-184.0" y="-0.0" />
+    </edge>
+    <edge source="world.ucode.Main" target="javafx.application.Application">
+      <point x="44.0" y="-60.0" />
+      <point x="309.33333333333337" y="574.0" />
+      <point x="326.6666666666667" y="574.0" />
+      <point x="122.66666666666669" y="182.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.0" y="357.0" />
+  <SelectedNodes>
+    <node>world.ucode.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

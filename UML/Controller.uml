@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>world.ucode.Controller</OriginalElement>
+  <nodes>
+    <node x="0.0" y="934.0">world.ucode.Controller.ControllerGameOver</node>
+    <node x="580.0" y="989.0">world.ucode.Controller.ControllerLoadGame</node>
+    <node x="338.75" y="0.0">world.ucode.Controller.DataBase</node>
+    <node x="285.29166666666663" y="258.0">world.ucode.Controller.ControllerPlayGame</node>
+    <node x="1156.75" y="0.0">world.ucode.Controller.ControllerGameMenu</node>
+    <node x="841.75" y="0.0">world.ucode.Controller.ControllerEnd</node>
+    <node x="290.0" y="945.0">world.ucode.Controller.ControllerNewGame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="world.ucode.Controller.ControllerNewGame" target="world.ucode.Controller.ControllerPlayGame">
+      <point x="0.0" y="-115.0" />
+      <point x="425.0" y="909.0" />
+      <point x="420.29166666666663" y="909.0" />
+      <point x="0.0" y="313.0" />
+    </edge>
+    <edge source="world.ucode.Controller.ControllerGameOver" target="world.ucode.Controller.ControllerPlayGame">
+      <point x="0.0" y="-126.0" />
+      <point x="135.0" y="909.0" />
+      <point x="330.29166666666663" y="909.0" />
+      <point x="-90.0" y="313.0" />
+    </edge>
+    <edge source="world.ucode.Controller.ControllerPlayGame" target="world.ucode.Controller.DataBase">
+      <point x="0.0" y="-313.0" />
+      <point x="420.29166666666663" y="233.0" />
+      <point x="453.25" y="233.0" />
+      <point x="-114.5" y="104.0" />
+    </edge>
+    <edge source="world.ucode.Controller.ControllerLoadGame" target="world.ucode.Controller.ControllerPlayGame">
+      <point x="-43.5" y="-71.0" />
+      <point x="623.5" y="909.0" />
+      <point x="510.29166666666663" y="909.0" />
+      <point x="90.0" y="313.0" />
+    </edge>
+    <edge source="world.ucode.Controller.ControllerLoadGame" target="world.ucode.Controller.DataBase">
+      <point x="43.5" y="-71.0" />
+      <point x="710.5" y="233.0" />
+      <point x="682.25" y="233.0" />
+      <point x="114.5" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9311774461028193" x="677.5" y="593.0" />
+  <SelectedNodes>
+    <node>world.ucode.Controller.ControllerGameOver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
